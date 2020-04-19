@@ -13,5 +13,5 @@ public class FeignServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FeignServiceApplication.class, args);
 	}
-	
+
 }

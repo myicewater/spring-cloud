@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="feign-service" />
-        <module name="eureka" />
+        <module name="service-ribbon" />
         <module name="service-produce" />
         <module name="spring-cloud" />
-        <module name="service-ribbon" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
   </component>
