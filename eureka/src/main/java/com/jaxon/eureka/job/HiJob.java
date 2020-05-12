@@ -14,8 +14,8 @@ public class HiJob extends QuartzJobBean {
         try {
             long id = Thread.currentThread().getId();
             logger.info(id+" start");
-            Thread.sleep(6000);
-//            logger.info(id+ " end");
+            Thread.sleep(20000);
+            logger.info(id+ " end");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

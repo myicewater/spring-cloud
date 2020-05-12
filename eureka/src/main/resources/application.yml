@@ -20,6 +20,6 @@ spring:
             instanceId: AUTO
           threadPool:
             class: org.quartz.simpl.SimpleThreadPool
-            threadCount: 10
+            threadCount: 3
             threadPriority: 5
             threadsInheritContextClassLoaderOfInitializingThread: true
