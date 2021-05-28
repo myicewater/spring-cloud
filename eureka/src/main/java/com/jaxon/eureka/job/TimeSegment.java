@@ -11,13 +11,12 @@ import java.util.concurrent.Executors;
 
 public class TimeSegment {
 
-    //时间段大小
+    //时间段大小(分钟)
     private static final int TIME_SEG = 3;
     //时间游标，从系统启动时间前推N分钟起
     private static Date CURRENT_TMIE = DateUtils.addMinutes(new Date(),-3);
-    //自定义开始时间
-//    private static String configDate = "";
-    private static String configDate = "2020-05-11 16:47:30";
+    //自定义开始时间   "2020-05-11 16:47:30"
+    private static String configDate = "";
     static{
         if(StringUtils.isNotBlank(configDate)){
             System.out.println("启动自定义配置");
@@ -30,10 +29,6 @@ public class TimeSegment {
         }
     }
 
-    static{
-        Date now = new Date();
-//        DateUtils.addMinutes(now,)
-    }
 
     Date startTime;
 
